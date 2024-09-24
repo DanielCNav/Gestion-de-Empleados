@@ -7,3 +7,11 @@ Características:
 - Persistencia de datos utilizando JPA y MySQL.
 
 Este backend está diseñado para integrarse con un frontend.
+
+Creación de Rol y Listado: Al crear un rol y realizar una solicitud GET para listar los roles, se visualizará de la siguiente manera:
+
+![Captura de pantalla 2024-09-24 200805](https://github.com/user-attachments/assets/f2445514-981e-4078-91d3-706aecb2182e)
+
+Asignación de Usuarios: Una vez que tengamos los roles y departamentos creados, será posible crear usuarios y asignarles un rol y un departamento específicos. Al realizar una solicitud GET en el departamento o en el rol, se mostrarán todos los empleados correspondientes a dicho departamento o rol.
+
+![Captura de pantalla 2024-09-24 200853](https://github.com/user-attachments/assets/8ffd8c1b-6c3b-411c-8040-57ad3c25c67b)
