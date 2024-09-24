@@ -15,3 +15,8 @@ Creación de Rol y Listado: Al crear un rol y realizar una solicitud GET para li
 Asignación de Usuarios: Una vez que tengamos los roles y departamentos creados, será posible crear usuarios y asignarles un rol y un departamento específicos. Al realizar una solicitud GET en el departamento o en el rol, se mostrarán todos los empleados correspondientes a dicho departamento o rol.
 
 ![Captura de pantalla 2024-09-24 200853](https://github.com/user-attachments/assets/8ffd8c1b-6c3b-411c-8040-57ad3c25c67b)
+
+
+Información Adicional:
+-Asegúrate de tener una base de datos creada en MySQL con el nombre gestion_empleados. Si prefieres utilizar un nombre diferente, puedes modificarlo en el archivo de configuración application.properties.
+-En caso de que la aplicación no se ejecute correctamente, revisa el archivo pom.xml y verifica las versiones de las dependencias para identificar cualquier posible error.
