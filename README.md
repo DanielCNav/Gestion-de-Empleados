@@ -18,5 +18,7 @@ Asignación de Usuarios: Una vez que tengamos los roles y departamentos creados,
 
 
 Información Adicional:
+
 -Asegúrate de tener una base de datos creada en MySQL con el nombre gestion_empleados. Si prefieres utilizar un nombre diferente, puedes modificarlo en el archivo de configuración application.properties.
+
 -En caso de que la aplicación no se ejecute correctamente, revisa el archivo pom.xml y verifica las versiones de las dependencias para identificar cualquier posible error.
